@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o?o:n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({QJf3ax:[function(e,n){function t(e){function n(n,t,a){e&&e(n,t,a),a||(a={});for(var u=c(n),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=e("gos");n.exports=t()},{gos:"7eSDFh"}],ee:[function(e,n){n.exports=e("QJf3ax")},{}],3:[function(e,n){function t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=t("api-"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],"7eSDFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],gos:[function(e,n){n.exports=e("7eSDFh")},{}],handle:[function(e,n){n.exports=e("D5DuLP")},{}],D5DuLP:[function(e,n){function t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):(o[e]||(o[e]=[]),void o[e].push(n))}var r=e("ee").create(),o={};n.exports=t,t.ee=r,r.q=o},{ee:"QJf3ax"}],id:[function(e,n){n.exports=e("XL7HBI")},{}],XL7HBI:[function(e,n){function t(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");n.exports=t},{gos:"7eSDFh"}],G9z0Bl:[function(e,n){function t(){var e=d.info=NREUM.info,n=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n in e||(e[n]=t)});var t="https"===s.split(":")[0]||e.sslForHttp;d.proto=t?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=e("handle"),c=e(1),u=(e(2),window),f=u.document,s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-632.min.js"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=e("G9z0Bl")},{}],12:[function(e,n){function t(e,n){var t=[],o="",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function t(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=t},{}]},{},["G9z0Bl"]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>Sign in | Codecourse</title>
+<link rel="icon" href="https://s3.amazonaws.com/s3.codecourse.com/public/favicon.png">
+<link rel="stylesheet" href="https://www.codecourse.com/css/app.css">
+<script src="//use.typekit.net/iyd6nfg.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+<script src="https://www.codecourse.com/js/modernizr.js"></script>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-54226715-1', 'auto');
+    ga('send', 'pageview');
+</script> </head>
+<body>
+<nav>
+<div class="navigator">
+<form action="https://www.codecourse.com/search/lessons" method="get" class="navigator-search row collapse">
+<div class="small-10 columns">
+<input type="text" tabindex="1" name="query" placeholder="Search lessons" autocomplete="off">
+</div>
+<div class="small-2 columns">
+<button class="button postfix">
+<span class="octicon octicon-search">
+</button>
+</div>
+</form>
+<ul class="side-nav">
+<li>
+<a href="https://www.codecourse.com/library">Library</a>
+</li>
+<li>
+<a href="https://www.codecourse.com/forum">Forum</a>
+</li>
+</ul>
+</div>
+</nav>
+<nav class="slider">
+<a class="open">
+<i class="mega-octicon octicon-three-bars"></i>
+</a>
+<a class="close">
+<i class="mega-octicon octicon-x"></i>
+</a>
+<form action="https://www.codecourse.com/search/lessons" method="get">
+<input type="text" name="query" class="slider-search" placeholder="Search lessons">
+</form>
+<ul class="plain">
+<li>
+<a href="https://www.codecourse.com/library">Library</a>
+</li>
+<li>
+<a href="https://www.codecourse.com/forum">Forum</a>
+</li>
+<li>
+<a href="https://www.codecourse.com/account/sign-up">Get an account</a>
+</li>
+<li>
+<a href="https://www.codecourse.com/account/sign-in">Sign in</a>
+</li>
+</ul>
+</nav>
+<div class="site-wrapper">
+<div class="header-alert-box">
+<div data-alert class="alert-box">
+<p>Sorry, you need to sign in before doing that.</p>
+<a href="#" class="close right">&times;</a>
+</div>
+</div>
+<div class="container main clearfix">
+<div class="row left">
+<div class="top-header large-12 columns">
+<ul class="crumbs inline left">
+<li class="page-title">
+Sign in
+</li>
+</ul> <ul class="account-bar inline">
+<li class="right"><a href="https://www.codecourse.com/account/sign-up">Get an account</a></li>
+<li class="right"><a href="https://www.codecourse.com/account/sign-in?redirect=https://www.codecourse.com/account/sign-in">Sign in</a></li>
+</ul>
+</div>
+</div>
+<div class="row left">
+<div class="large-10 columns">
+<div class="row">
+<div class="large-6 columns">
+<form action="https://www.codecourse.com/account/sign-in?" method="post">
+<label>
+Email address
+<input type="email" name="email" placeholder="you@domain.com" required>
+</label>
+<label>
+Password
+<input type="password" name="password" required>
+</label>
+<label><input type="checkbox" name="remember"> Keep me signed in</label>
+<button class="button small">Sign in</button>
+<input type="hidden" name="_token" value="kWI0Sbz7wkgdDMSooQM3sFFvGDxrWkfc5fakafZP">
+</form>
+<a href="https://www.codecourse.com/account/settings/password/remind">Lost your password?</a>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="large-12 columns">
+<footer class="main">
+<div class="row">
+<div class="large-3 columns">
+<h5 class="footer-header">About Codecourse</h5>
+<p>Our goal is your goal. We want you to discover web development in your own way, and we're helping to keep it free.</p>
+<p>2015 Codecourse Ltd. Formerly phpacademy.</p>
+</div>
+<div class="large-2 columns">
+<ul class="plain">
+<li><a href="https://www.codecourse.com/library">Library</a></li>
+<li><a href="https://www.codecourse.com/account/sign-up">Sign up</a></li>
+<li><a href="https://www.codecourse.com/account/sign-in">Sign in</a></li>
+<li><a href="https://www.codecourse.com/account/premium">Premium membership</a></li>
+</ul>
+</div>
+<div class="large-2 columns">
+<ul class="plain">
+<li><a href="https://www.codecourse.com/page/privacy-policy">Privacy policy</a></li>
+<li><a href="https://www.codecourse.com/contact">Contact us</a></li>
+ 
+</ul>
+</div>
+<div class="large-2 columns">
+<h5 class="footer-header">Socialise with us</h5>
+<ul class="plain">
+<li><a href="http://www.twitter.com/phpacademy" target="_blank">Twitter</a></li>
+<li><a href="http://www.facebook.com/learnwebdev" target="_blank">Facebook</a></li>
+<li><a href="https://plus.google.com/+codecourse" target="_blank">Google+</a></li>
+<li><a href="https://www.codecourse.com/forum">Forum</a></li>
+</ul>
+</div>
+<div class="large-3 columns">
+</div>
+</div>
+</footer>
+</div>
+</div>
+</div>
+<div id="modal" class="reveal-modal" data-reveal></div>
+<div id="modal-medium" class="reveal-modal medium" data-reveal></div>
+<div id="modal-small" class="reveal-modal small" data-reveal></div>
+<script src="https://www.codecourse.com/js/app.js"></script>
+<script>
+            var codecourse = function() {
+                return {
+                    'stripe_api_key_public': 'pk_live_4OaANslW6ivpoh7fyvuRyhAo'
+                };
+            }();
+
+                    </script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"01afac0cb5","applicationID":"7160743","transactionName":"MQBbZEdXD0dTUxIPXQhKeFNBXw5aHUMPAVxLDFc=","queueTime":0,"applicationTime":74,"atts":"HUdYEg9NHEk=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-632.min.js"}</script></body>
+</html>
+</div>
